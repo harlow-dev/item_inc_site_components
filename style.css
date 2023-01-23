@@ -23,11 +23,13 @@
   background: #1F7BC9;
   bottom: 0;
   max-width: 240px;
+  margin-bottom: 0;
 }
 .container--ch #hero p {
   font-size: 35px;
   width: 100%;
   max-width: 650px;
+  font-family: sans-serif;
 }
 .container--ch #hero .flex {
   display: flex;

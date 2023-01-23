@@ -37,12 +37,14 @@
             background: $primary;
             bottom: 0;
             max-width: 240px;
+            margin-bottom: 0;
         }
 
         & p{
             font-size: 35px;
             width: 100%;
             max-width: 650px;
+            font-family: sans-serif;
         }
 
         .flex{
@@ -71,4 +73,8 @@
     & img{
         margin: auto;
     }
+}
+
+@media(max-width: 708px){
+
 }
