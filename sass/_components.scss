@@ -1,4 +1,7 @@
 .container--ch{
+    & *{
+        box-sizing: border-box;
+    }
 
     & #hero{
         background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
@@ -14,6 +17,7 @@
             text-transform: capitalize;
             position: relative;
             margin-bottom: 0;
+            font-weight: bold;
 
             // &::after{
             //     content: '';
@@ -39,6 +43,27 @@
             font-size: 35px;
             width: 100%;
             max-width: 650px;
+        }
+
+        .flex{
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            max-width: 1000px;
+        }
+
+        .button{
+            color: $light;
+            text-decoration: none;
+            font-size: 22px;
+            padding: 15px 40px;
+            font-weight: bold;
+            font-family: sans-serif;
+            border: solid 4px $primary;
+
+            &--filled{
+                background: $primary;
+            }
         }
         
     }
