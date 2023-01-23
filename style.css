@@ -1,3 +1,32 @@
-
+.container--ch #hero {
+  background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
+  color: #ffffff;
+  padding: 40px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container--ch #hero h1 {
+  text-align: left;
+  font-size: 40px;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 0;
+}
+.container--ch #hero .underline {
+  height: 5px;
+  width: 50%;
+  background: #1F7BC9;
+  bottom: 0;
+  max-width: 240px;
+}
+.container--ch #hero p {
+  font-size: 35px;
+  width: 100%;
+  max-width: 650px;
+}
+.container--ch img {
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
