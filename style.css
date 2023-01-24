@@ -74,9 +74,15 @@
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 20px auto 20px auto;
+  align-items: center;
 }
 .container--ch #company-logos .flex img {
   width: 200px;
+  padding: 10px;
+}
+.container--ch #company-logos .flex span.img-downsize img {
+  height: 100px !important;
+  width: auto !important;
 }
 .container--ch #company-logos .flex img:nth-child(4) {
   width: 100px;
@@ -95,6 +101,9 @@
   .container--ch #hero .flex .button {
     margin-bottom: 25px;
     font-size: 18px;
+  }
+  .container--ch .no-display-720px {
+    display: none !important;
   }
 }
 
