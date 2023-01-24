@@ -38,6 +38,7 @@
   justify-content: space-around;
   margin: auto;
   max-width: 1000px;
+  align-items: center;
 }
 .container--ch #hero .button {
   color: #ffffff;
@@ -63,6 +64,22 @@
 }
 .container--ch img {
   margin: auto;
+}
+.container--ch #company-logos {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.container--ch #company-logos .flex {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px auto 20px auto;
+}
+.container--ch #company-logos .flex img {
+  width: 200px;
+}
+.container--ch #company-logos .flex img:nth-child(4) {
+  width: 100px;
 }
 
 @media (max-width: 720px) {
