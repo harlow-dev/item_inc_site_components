@@ -49,6 +49,7 @@
   border: solid 4px #1F7BC9;
   transition: 0.3s;
   overflow: hidden;
+  text-align: center;
 }
 .container--ch #hero .button:hover {
   border-color: #2289e3;
@@ -64,7 +65,7 @@
   margin: auto;
 }
 
-@media (max-width: 708px) {
+@media (max-width: 720px) {
   .container--ch #hero h1 {
     font-size: 35px;
   }

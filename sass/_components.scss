@@ -66,6 +66,7 @@
             border: solid 4px $primary;
             transition: .3s;
             overflow: hidden;
+            text-align: center;
 
             &:hover{
                 border-color: $hover-primary;
@@ -88,7 +89,7 @@
     }
 }
 
-@media(max-width: 708px){
+@media(max-width: 720px){
     .container--ch{
 
         & #hero{
