@@ -1,6 +1,6 @@
 .ii-button{
     color: $light;
-    text-decoration: none;
+    text-decoration: none !important;
     font-size: 22px;
     padding: 15px 40px;
     font-weight: bold;
@@ -9,6 +9,7 @@
     transition: .3s;
     overflow: hidden;
     text-align: center;
+    color: $light !important;
 
     &:hover{
         border-color: $hover-primary;

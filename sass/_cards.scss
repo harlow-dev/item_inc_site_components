@@ -7,7 +7,7 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: flex-end;
     align-items: center;
     //box-shadow: 0 0 20px rgba(0, 0, 0, .4);
     //border-radius: 15px;
@@ -35,7 +35,7 @@
 MEDIA QUERIES
 ***************************/
 
-@media(max-width: 847px){
+@media(max-width: 865px){
 
     .ii-product-card{
 
