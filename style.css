@@ -1,5 +1,62 @@
+.ii-product-card {
+  box-sizing: border-box;
+  width: 30%;
+  height: auto;
+  border: 5px solid #275CCD;
+  text-align: center;
+  margin: 15px;
+}
+.ii-product-card img {
+  width: 90%;
+}
+.ii-product-card p {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+.ii-product-card .ii-container {
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+@media (max-width: 769px) {
+  .ii-product-card .ii-button {
+    font-size: 18px;
+  }
+}
+@media (max-width: 716px) {
+  .ii-product-card {
+    width: 90%;
+  }
+}
+.ii-button {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 22px;
+  padding: 15px 40px;
+  font-weight: bold;
+  font-family: sans-serif;
+  border: solid 4px #275CCD;
+  transition: 0.3s;
+  overflow: hidden;
+  text-align: center;
+}
+.ii-button:hover {
+  border-color: #2289e3;
+  transform: translateY(-2px) !important;
+}
+.ii-button--filled {
+  background: #275CCD;
+}
+.ii-button--filled:hover {
+  background: #2289e3;
+}
+
 .container--ch * {
   box-sizing: border-box;
+}
+.container--ch img {
+  margin: auto;
 }
 .container--ch #hero {
   background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
@@ -14,14 +71,13 @@
   text-align: left;
   font-size: 40px;
   text-transform: capitalize;
-  position: relative;
   margin-bottom: 0;
   font-weight: bold;
 }
 .container--ch #hero .underline {
   height: 5px;
   width: 50%;
-  background: #1F7BC9;
+  background: #275CCD;
   bottom: 0;
   max-width: 240px;
   margin-bottom: 0;
@@ -37,33 +93,7 @@
   display: flex;
   justify-content: space-around;
   margin: auto;
-  max-width: 1000px;
   align-items: center;
-}
-.container--ch #hero .button {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 22px;
-  padding: 15px 40px;
-  font-weight: bold;
-  font-family: sans-serif;
-  border: solid 4px #1F7BC9;
-  transition: 0.3s;
-  overflow: hidden;
-  text-align: center;
-}
-.container--ch #hero .button:hover {
-  border-color: #2289e3;
-  transform: translateY(-2px);
-}
-.container--ch #hero .button--filled {
-  background: #1F7BC9;
-}
-.container--ch #hero .button--filled:hover {
-  background: #2289e3;
-}
-.container--ch img {
-  margin: auto;
 }
 .container--ch #company-logos {
   overflow: hidden;
@@ -87,6 +117,11 @@
 .container--ch #company-logos .flex img:nth-child(4) {
   width: 100px;
 }
+.container--ch #product-cards .flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
 @media (max-width: 720px) {
   .container--ch #hero h1 {
@@ -98,12 +133,18 @@
   .container--ch #hero .flex {
     flex-direction: column;
   }
-  .container--ch #hero .flex .button {
+  .container--ch #hero .flex .ii-button {
     margin-bottom: 25px;
     font-size: 18px;
+    width: 80%;
   }
   .container--ch .no-display-720px {
     display: none !important;
+  }
+}
+@media (max-width: 716px) {
+  #product-cards .flex {
+    flex-direction: column;
   }
 }
 

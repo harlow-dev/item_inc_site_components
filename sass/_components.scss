@@ -3,6 +3,10 @@
         box-sizing: border-box;
     }
 
+    & img{
+        margin: auto;
+    }
+
     & #hero{
         background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
         color: $light;
@@ -16,7 +20,6 @@
             text-align: left;
             font-size: 40px;
             text-transform: capitalize;
-            position: relative;
             margin-bottom: 0;
             font-weight: bold;
 
@@ -53,41 +56,10 @@
             display: flex;
             justify-content: space-around;
             margin: auto;
-            max-width: 1000px;
             align-items: center;
         }
-
-        .button{
-            color: $light;
-            text-decoration: none;
-            font-size: 22px;
-            padding: 15px 40px;
-            font-weight: bold;
-            font-family: sans-serif;
-            border: solid 4px $primary;
-            transition: .3s;
-            overflow: hidden;
-            text-align: center;
-
-            &:hover{
-                border-color: $hover-primary;
-                transform: translateY(-2px);
-            }
-
-            &--filled{
-                background: $primary;
-
-                &:hover{
-                    background: $hover-primary;
-                }
-            }
-        }
-        
     }
 
-    & img{
-        margin: auto;
-    }
 
     & #company-logos{
         overflow: hidden;
@@ -119,6 +91,15 @@
 
         
     }
+
+    & #product-cards{
+
+        & .flex{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+    }
 }
 
 @media(max-width: 720px){
@@ -137,9 +118,10 @@
             & .flex{
                 flex-direction: column;
     
-                & .button{
+                & .ii-button{
                     margin-bottom: 25px;
                     font-size: 18px;
+                    width: 80%;
                 }
             }
         }
@@ -148,6 +130,13 @@
             display: none !important;
         }
     }
+}
 
-    
+@media(max-width: 716px){
+    #product-cards{
+
+        & .flex{
+            flex-direction: column;
+        }
+    }
 }

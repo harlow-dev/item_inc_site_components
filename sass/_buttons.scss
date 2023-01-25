@@ -1,0 +1,25 @@
+.ii-button{
+    color: $light;
+    text-decoration: none;
+    font-size: 22px;
+    padding: 15px 40px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: solid 4px $primary;
+    transition: .3s;
+    overflow: hidden;
+    text-align: center;
+
+    &:hover{
+        border-color: $hover-primary;
+        transform: translateY(-2px) !important;
+    }
+
+    &--filled{
+        background: $primary;
+
+        &:hover{
+            background: $hover-primary;
+        }
+    }
+}
