@@ -97,7 +97,7 @@
         & .flex{
             display: flex;
             justify-content: space-around;
-            align-items: center;
+            align-items: stretch;
         }
     }
 }
@@ -126,13 +126,10 @@
             }
         }
 
-        & .no-display-720px{
-            display: none !important;
-        }
     }
 }
 
-@media(max-width: 716px){
+@media(max-width: 770px){
     #product-cards{
 
         & .flex{

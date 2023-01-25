@@ -1,13 +1,21 @@
 .ii-product-card{
     box-sizing: border-box;
     width: 30%;
-    height: auto;
     border: 5px solid $primary;
     text-align: center;
     margin: 15px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    //box-shadow: 0 0 20px rgba(0, 0, 0, .4);
+    //border-radius: 15px;
+    padding: 15px;
+    //height: 450px;
 
     & img{
-        width: 90%;
+        width: 80%;
     }
 
     & p{
@@ -23,17 +31,38 @@
 
 }
 
-@media(max-width: 769px){
+/**************************
+MEDIA QUERIES
+***************************/
+
+@media(max-width: 847px){
+
     .ii-product-card{
 
+        & p{
+            font-size: 22px;
+        }
+
         & .ii-button{
-            font-size: 18px;
+            font-size: 12px;
         }
     }
 }
 
-@media(max-width: 716px){
+@media(max-width: 770px){
     .ii-product-card{
         width: 90%;
+
+        & .ii-container{
+            width: 100%;
+
+            & .ii-button{
+                font-size: 18px;
+                width: 80%;
+                display: block;
+                margin: auto;
+            }
+        }
     }
 }
+
