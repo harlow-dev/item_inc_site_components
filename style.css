@@ -68,7 +68,7 @@
 .container--ch #hero {
   background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
   color: #ffffff;
-  padding: 40px;
+  padding: 80px 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
