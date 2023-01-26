@@ -1,12 +1,4 @@
 .container--ch{
-    & *{
-        box-sizing: border-box;
-    }
-
-    & img{
-        margin: auto;
-    }
-
     & #hero{
         background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
         color: $light;
@@ -59,49 +51,11 @@
             align-items: center;
         }
     }
-
-
-    & #company-logos{
-        overflow: hidden;
-        box-sizing: border-box;
-
-        & .flex{
-            display: flex;
-            justify-content: space-evenly;
-            flex-wrap: wrap;
-            margin: 20px auto 20px auto;
-            align-items: center;
-
-            & img{
-                width: 200px;
-                padding: 10px;
-            }
-
-            //This code is becaus Sana strips out classes from images
-            //and adds the class to a wrapping span
-            & span.img-downsize img{
-                height: 100px !important;
-                width: auto !important;
-            }
-
-            & img:nth-child(4){
-                width: 100px;
-            }
-        }
-
-        
-    }
-
-    & #product-cards{
-        //padding: 35px;
-
-        & .flex{
-            display: flex;
-            justify-content: space-around;
-            align-items: stretch;
-        }
-    }
 }
+
+/***********************************
+******MEDIA QUERIES*****************
+************************************/
 
 @media(max-width: 720px){
     .container--ch{
@@ -127,14 +81,5 @@
             }
         }
 
-    }
-}
-
-@media(max-width: 770px){
-    #product-cards{
-
-        & .flex{
-            flex-direction: column;
-        }
     }
 }

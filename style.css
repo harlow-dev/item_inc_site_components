@@ -1,3 +1,10 @@
+.container--ch * {
+  box-sizing: border-box;
+}
+.container--ch img {
+  margin: auto;
+}
+
 .ii-product-card {
   box-sizing: border-box;
   width: 33%;
@@ -77,11 +84,15 @@ MEDIA QUERIES
   background: #2289e3;
 }
 
-.container--ch * {
-  box-sizing: border-box;
+@media (max-width: 770px) {
+  .no-display-770px {
+    display: none !important;
+  }
 }
-.container--ch img {
-  margin: auto;
+@media (max-width: 720px) {
+  .no-display-720px {
+    display: none !important;
+  }
 }
 .container--ch #hero {
   background: url("https://iteminc.com/content/files/frontend-assets/printer-darkened.jpg");
@@ -120,6 +131,26 @@ MEDIA QUERIES
   margin: auto;
   align-items: center;
 }
+
+/***********************************
+******MEDIA QUERIES*****************
+************************************/
+@media (max-width: 720px) {
+  .container--ch #hero h1 {
+    font-size: 35px;
+  }
+  .container--ch #hero p {
+    font-size: 25px;
+  }
+  .container--ch #hero .flex {
+    flex-direction: column;
+  }
+  .container--ch #hero .flex .ii-button {
+    margin-bottom: 25px;
+    font-size: 18px;
+    width: 80%;
+  }
+}
 .container--ch #company-logos {
   overflow: hidden;
   box-sizing: border-box;
@@ -142,41 +173,19 @@ MEDIA QUERIES
 .container--ch #company-logos .flex img:nth-child(4) {
   width: 100px;
 }
+
 .container--ch #product-cards .flex {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
 }
 
-@media (max-width: 720px) {
-  .container--ch #hero h1 {
-    font-size: 35px;
-  }
-  .container--ch #hero p {
-    font-size: 25px;
-  }
-  .container--ch #hero .flex {
-    flex-direction: column;
-  }
-  .container--ch #hero .flex .ii-button {
-    margin-bottom: 25px;
-    font-size: 18px;
-    width: 80%;
-  }
-}
+/*****************************************
+**********MEDIA QUERIES*******************
+*****************************************/
 @media (max-width: 770px) {
   #product-cards .flex {
     flex-direction: column;
-  }
-}
-@media (max-width: 770px) {
-  .no-display-770px {
-    display: none !important;
-  }
-}
-@media (max-width: 720px) {
-  .no-display-720px {
-    display: none !important;
   }
 }
 

@@ -1,0 +1,9 @@
+.container--ch{
+    & *{
+        box-sizing: border-box;
+    }
+
+    & img{
+        margin: auto;
+    }
+}

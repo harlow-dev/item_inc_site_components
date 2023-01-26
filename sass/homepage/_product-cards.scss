@@ -1,0 +1,25 @@
+.container--ch{
+
+    & #product-cards{
+        //padding: 35px;
+
+        & .flex{
+            display: flex;
+            justify-content: space-around;
+            align-items: stretch;
+        }
+    }
+}
+
+/*****************************************
+**********MEDIA QUERIES*******************
+*****************************************/
+
+@media(max-width: 770px){
+    #product-cards{
+
+        & .flex{
+            flex-direction: column;
+        }
+    }
+}
