@@ -8,7 +8,7 @@
 .ii-product-card {
   box-sizing: border-box;
   width: 33%;
-  border: 5px solid #275CCD;
+  border: 3px solid #275CCD;
   text-align: center;
   margin: 15px;
   overflow: hidden;
@@ -16,12 +16,11 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  border-radius: 15px;
   padding: 15px;
 }
 .ii-product-card img {
   width: 80%;
-  margin: 0 auto 0 auto;
+  margin: 0 auto 15px auto;
 }
 .ii-product-card p {
   font-size: 24px;
@@ -32,31 +31,6 @@
   font-weight: bold;
 }
 
-/**************************
-MEDIA QUERIES
-***************************/
-@media (max-width: 865px) {
-  .ii-product-card p {
-    font-size: 22px;
-  }
-  .ii-product-card .ii-button {
-    font-size: 12px;
-  }
-}
-@media (max-width: 770px) {
-  .ii-product-card {
-    width: 90%;
-  }
-  .ii-product-card .ii-container {
-    width: 100%;
-  }
-  .ii-product-card .ii-container .ii-button {
-    font-size: 18px;
-    width: 80%;
-    display: block;
-    margin: auto;
-  }
-}
 .ii-button {
   color: #ffffff;
   text-decoration: none !important;
@@ -172,7 +146,6 @@ MEDIA QUERIES
 }
 
 .container--ch #product-cards .ii-container .ii-button:hover {
-  background: red;
   transform: translateY(-2px) !important;
 }
 .container--ch #product-cards .flex {
@@ -184,9 +157,29 @@ MEDIA QUERIES
 /*****************************************
 **********MEDIA QUERIES*******************
 *****************************************/
+@media (max-width: 865px) {
+  .ii-product-card p {
+    font-size: 22px;
+  }
+  .ii-product-card .ii-button {
+    font-size: 16px;
+  }
+}
 @media (max-width: 770px) {
   #product-cards .flex {
     flex-direction: column;
+  }
+  .ii-product-card {
+    width: 90%;
+  }
+  .ii-product-card .ii-container {
+    width: 100%;
+  }
+  .ii-product-card .ii-container .ii-button {
+    font-size: 18px;
+    width: 80%;
+    display: block;
+    margin: auto;
   }
 }
 

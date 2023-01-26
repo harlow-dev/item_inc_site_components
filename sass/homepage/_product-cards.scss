@@ -1,14 +1,13 @@
 .container--ch{
 
     & #product-cards{
-        //padding: 35px;
+        //background: #f2f2f2;
 
         & .ii-container{
 
             & .ii-button{
 
                 &:hover{
-                    background: red;
                     transform: translateY(-2px) !important;
                 }
             }
@@ -26,11 +25,40 @@
 **********MEDIA QUERIES*******************
 *****************************************/
 
+@media(max-width: 865px){
+
+    .ii-product-card{
+
+        & p{
+            font-size: 22px;
+        }
+
+        & .ii-button{
+            font-size: 16px;
+        }
+    }
+}
+
 @media(max-width: 770px){
     #product-cards{
 
         & .flex{
             flex-direction: column;
+        }
+    }
+
+    .ii-product-card{
+        width: 90%;
+
+        & .ii-container{
+            width: 100%;
+
+            & .ii-button{
+                font-size: 18px;
+                width: 80%;
+                display: block;
+                margin: auto;
+            }
         }
     }
 }
