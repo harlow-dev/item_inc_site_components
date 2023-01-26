@@ -27,6 +27,12 @@
             margin: auto;
             background: $light;
             color: $primary !important;
+
+            // &:hover{
+            //     color: $light !important;
+            //     background: $hover-primary;
+            //     border-color: $hover-primary;
+            // }
         }
     }
 }

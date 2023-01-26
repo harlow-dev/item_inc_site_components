@@ -1,0 +1,17 @@
+.container--ch{
+    & #testimonials{
+
+        & h1{
+        color: $accent;
+        font-size: 45px;
+        text-align: center;
+        text-transform: capitalize;
+        }
+
+        & .flex{
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+
+}
