@@ -3,20 +3,24 @@
     & #product-cards{
         //background: #f2f2f2;
 
-        & .ii-container{
+        // & .ii-container{
 
-            & .ii-button{
+        //     & .ii-button{
 
-                &:hover{
-                    transform: translateY(-2px) !important;
-                }
-            }
-        }
+        //         &:hover{
+        //             transform: translateY(-2px) !important;
+        //         }
+        //     }
+        // }
 
         & .flex{
             display: flex;
             justify-content: space-around;
             align-items: stretch;
+
+            & .ii-product-card{
+                //@include box-shadow;
+            }
         }
     }
 }

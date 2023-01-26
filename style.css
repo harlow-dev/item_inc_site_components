@@ -55,7 +55,7 @@
 }
 
 .ii-testimonials-card {
-  width: 30%;
+  width: 31%;
   background: #275CCD;
   background-position: top center;
   background-size: cover;
@@ -65,12 +65,12 @@
   margin: 0;
 }
 .ii-testimonials-card p {
-  background: #275CCD;
   margin: 0;
   color: #ffffff;
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-size: 22px;
   line-height: 1.3;
+  font-family: serif;
 }
 .ii-testimonials-card p.signature {
   font-style: italic;
@@ -166,15 +166,11 @@
   width: 100px;
 }
 
-.container--ch #product-cards .ii-container .ii-button:hover {
-  transform: translateY(-2px) !important;
-}
 .container--ch #product-cards .flex {
   display: flex;
   justify-content: space-around;
   align-items: stretch;
 }
-
 /*****************************************
 **********MEDIA QUERIES*******************
 *****************************************/
@@ -255,7 +251,21 @@
 }
 .container--ch #testimonials .flex {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
+}
+.container--ch #testimonials .flex .ii-testimonials-card {
+  overflow: hidden;
+}
+
+@media (max-width: 934px) {
+  .container--ch #testimonials .flex {
+    flex-direction: column;
+  }
+  .container--ch #testimonials .flex .ii-testimonials-card {
+    width: 90%;
+    margin: 20px auto;
+    max-width: 500px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

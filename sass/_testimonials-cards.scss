@@ -1,5 +1,5 @@
 .ii-testimonials-card{
-    width: 30%;
+    width: 31%;
     background: $primary;
     background-position: top center;
     background-size: cover;
@@ -11,12 +11,12 @@
 
 
     p{
-        background: $primary;
         margin: 0;
         color: $light;
-        padding: 10px 15px;
+        padding: 10px 20px;
         font-size: 22px;
         line-height: 1.3;
+        font-family: serif;
 
         &.signature{
             font-style: italic;

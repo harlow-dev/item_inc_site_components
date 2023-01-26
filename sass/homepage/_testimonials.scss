@@ -10,8 +10,32 @@
 
         & .flex{
             display: flex;
-            justify-content: space-evenly;
+            justify-content: space-around;
+
+            & .ii-testimonials-card{
+                //@include box-shadow;
+                //border-radius: 15px;
+                overflow: hidden;
+            }
         }
     }
 
+}
+
+@media(max-width: 934px){
+    .container--ch{
+
+        & #testimonials{
+
+            & .flex{
+                flex-direction: column;
+
+                & .ii-testimonials-card{
+                    width: 90%;
+                    margin: 20px auto;
+                    max-width: 500px;
+                }
+            }
+        }
+    }
 }
