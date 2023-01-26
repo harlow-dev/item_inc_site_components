@@ -9,10 +9,8 @@
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-    //box-shadow: 0 0 20px rgba(0, 0, 0, .4);
     border-radius: 15px;
     padding: 15px;
-    //height: 450px;
 
     & img{
         width: 80%;
@@ -30,6 +28,7 @@
     & .ii-container{
         margin-bottom: 20px;
         padding: 15px;
+        overflow: hidden;
     }
 
 }

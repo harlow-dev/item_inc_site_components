@@ -3,6 +3,17 @@
     & #product-cards{
         //padding: 35px;
 
+        & .ii-container{
+
+            & .ii-button{
+
+                &:hover{
+                    background: red;
+                    transform: translateY(-2px) !important;
+                }
+            }
+        }
+
         & .flex{
             display: flex;
             justify-content: space-around;
