@@ -207,6 +207,9 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+.container--ch #oki-items span {
+  width: 100%;
+}
 .container--ch #oki-items img {
   width: 70%;
   margin: auto;
@@ -324,6 +327,11 @@
     width: 80%;
   }
 }
+.container--ch #delivery-services span {
+  margin: auto !important;
+  display: block !important;
+  width: 100% !important;
+}
 .container--ch #delivery-services img {
   margin: auto;
   display: block;
@@ -334,6 +342,7 @@
   font-size: 30px;
   text-align: center;
   line-height: 1.3;
+  text-transform: capitalize;
 }
 
 /*******************************

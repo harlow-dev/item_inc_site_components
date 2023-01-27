@@ -2,6 +2,13 @@
 
     & #delivery-services{
 
+         //This code is here because Sana wraps <img> in <span>
+         & span{
+            margin: auto !important;
+            display: block !important;
+            width: 100% !important;
+        }
+
         & img{
             margin: auto;
             display: block;
@@ -13,6 +20,7 @@
             font-size: 30px;
             text-align: center;
             line-height: 1.3;
+            text-transform: capitalize;
         }
     }
 }

@@ -7,11 +7,17 @@
         background-repeat: no-repeat;
         background-position: center;
 
+        //This is put here because Sana wraps all <img> with <span>
+        & span{
+            width: 100%;
+        }
+
         & img{
             width: 70%;
             margin: auto;
             display: block;
         }
+
 
         & p{
             font-size: 35px;
