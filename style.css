@@ -324,5 +324,25 @@
     width: 80%;
   }
 }
+.container--ch #delivery-services img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+.container--ch #delivery-services h1 {
+  color: #707070;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.3;
+}
+
+/*******************************
+******MEDIA QUERIES*************
+********************************/
+@media (max-width: 720px) {
+  .container--ch #delivery-services h1 {
+    font-size: 25px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
