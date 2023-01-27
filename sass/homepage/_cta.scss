@@ -1,0 +1,74 @@
+.container--ch{
+    & #cta-homepage{
+        background: url("https://iteminc.com/content/files/frontend-assets/background-images/dot-matrix-dark.jpg");
+        color: $light;
+        padding: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        & h1{
+            color: $light;
+            text-align: left;
+            font-size: 40px;
+            text-transform: capitalize;
+            margin-bottom: 0;
+            font-weight: bold;
+        }
+
+        .underline{
+            height: 5px;
+            width: 50%;
+            background: $primary;
+            bottom: 0;
+            max-width: 240px;
+            margin-bottom: 0;
+        }
+
+        & p{
+            font-size: 35px;
+            width: 100%;
+            max-width: 650px;
+            font-family: sans-serif;
+            line-height: 1.3;
+        }
+
+        .flex{
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            align-items: center;
+        }
+    }
+}
+
+/***********************************
+******MEDIA QUERIES*****************
+************************************/
+
+@media(max-width: 720px){
+    .container--ch{
+
+        & #cta-homepage{
+
+            & h1{
+                font-size: 35px;
+            }
+
+            & p{
+                font-size: 25px;
+            }
+
+            & .flex{
+                flex-direction: column;
+    
+                & .ii-button{
+                    margin-bottom: 25px;
+                    font-size: 18px;
+                    width: 80%;
+                }
+            }
+        }
+
+    }
+}
