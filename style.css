@@ -353,5 +353,17 @@
     font-size: 25px;
   }
 }
+#mc_embed_signup {
+  padding: 15px;
+  margin: auto;
+  max-width: 1000px;
+}
+#mc_embed_signup h2 {
+  color: #275CCD;
+}
+#mc_embed_signup input.button {
+  background: #275CCD;
+  padding: 10px 25px 40px 25px;
+}
 
 /*# sourceMappingURL=style.css.map */

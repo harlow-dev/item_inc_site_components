@@ -1,0 +1,15 @@
+#mc_embed_signup{
+    //background: #ccc;
+    padding: 15px;
+    margin: auto;
+    max-width: 1000px;
+
+    & h2{
+        color: $primary;
+    }
+
+    & input.button{
+        background: $primary;
+        padding: 10px 25px 40px 25px;
+    }
+}
