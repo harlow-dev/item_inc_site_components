@@ -344,6 +344,10 @@
   line-height: 1.3;
   text-transform: capitalize;
 }
+.container--ch #delivery-services h1 em {
+  font-weight: bold;
+  font-size: 45px;
+}
 
 /*******************************
 ******MEDIA QUERIES*************
@@ -351,6 +355,9 @@
 @media (max-width: 720px) {
   .container--ch #delivery-services h1 {
     font-size: 25px;
+  }
+  .container--ch #delivery-services h1 em {
+    font-size: 30px;
   }
 }
 #mc_embed_signup {
