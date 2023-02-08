@@ -429,6 +429,15 @@
 #mc_embed_signup input.button {
   background: #275CCD;
   padding: 10px 25px 40px 25px;
+  font-weight: bold;
+  border: none;
+}
+#mc_embed_signup input.button:hover {
+  background: #4a79dd;
+}
+#mc_embed_signup .logo {
+  height: 70px;
+  float: right;
 }
 
 /*# sourceMappingURL=style.css.map */
