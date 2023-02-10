@@ -9,6 +9,7 @@
     overflow: hidden;
     text-align: center;
     color: $light !important;
+    cursor: pointer;
 
     &:hover{
         border-color: $hover-primary;

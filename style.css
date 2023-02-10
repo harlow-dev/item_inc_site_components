@@ -42,6 +42,7 @@
   overflow: hidden;
   text-align: center;
   color: #ffffff !important;
+  cursor: pointer;
 }
 .ii-button:hover {
   border-color: #2289e3;
@@ -418,6 +419,13 @@
     font-size: 20px;
   }
 }
+.ii-divider {
+  width: 70%;
+  height: 3px;
+  background: linear-gradient(to right, white, rgba(112, 112, 112, 0.5), white);
+  margin: 15px auto;
+}
+
 #mc_embed_signup {
   padding: 15px;
   margin: auto;
@@ -438,6 +446,87 @@
 #mc_embed_signup .logo {
   height: 70px;
   float: right;
+}
+
+.container--ch #resources .row {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+.container--ch #resources .row .content {
+  width: 48%;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  overflow: hidden;
+  max-width: 600px;
+}
+.container--ch #resources .row .content--text {
+  order: 1;
+}
+.container--ch #resources .row .content--text h1 {
+  font-size: 40px;
+  text-transform: capitalize;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.container--ch #resources .row .content--text .underline {
+  height: 5px;
+  width: 50%;
+  background: #275CCD;
+  bottom: 0;
+  max-width: 240px;
+  margin-bottom: 0;
+  display: block;
+}
+.container--ch #resources .row .content--text p {
+  font-size: 35px;
+}
+.container--ch #resources .row .content--text .ii-button {
+  text-transform: capitalize;
+}
+.container--ch #resources .row .content--img {
+  order: 1;
+}
+.container--ch #resources .row .content--img img {
+  height: 350px;
+  order: 0;
+}
+
+/*******************
+===MEDIA QUERIES===
+*******************/
+@media (max-width: 830px) {
+  .container--ch #resources .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .container--ch #resources .row .content {
+    width: 100%;
+  }
+  .container--ch #resources .row .content--text h1 {
+    font-size: 35px;
+  }
+  .container--ch #resources .row .content--text p {
+    font-size: 25px;
+  }
+  .container--ch #resources .row .content--img {
+    order: 0;
+  }
+}
+@media (max-width: 544px) {
+  .container--ch #resources .content {
+    height: auto;
+  }
+  .container--ch #resources .content--img {
+    height: 300px;
+  }
+  .container--ch #resources .content--img img {
+    width: 100%;
+    height: auto !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

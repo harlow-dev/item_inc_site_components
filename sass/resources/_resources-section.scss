@@ -1,0 +1,118 @@
+.container--ch{
+    
+    & #resources{
+
+        & .row{
+            //background: rgba(0,0,0,.3);
+            display: flex;
+            justify-content: space-evenly;
+            margin: 50px auto;
+
+            & .content{
+                width: 48%;
+                color: $dark;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 15px;
+                overflow: hidden;
+                max-width: 600px;
+
+                &--text{
+                    order: 1;
+
+                    & h1{
+                        font-size: 40px;
+                        text-transform: capitalize;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                    }
+    
+                    & .underline{
+                        height: 5px;
+                        width: 50%;
+                        background: $primary;
+                        bottom: 0;
+                        max-width: 240px;
+                        margin-bottom: 0;
+                        display: block;
+                    }
+    
+                    & p{
+                        font-size: 35px;
+                    }
+
+                    & .ii-button{
+                        text-transform: capitalize;
+                    }
+                }
+
+                &--img{
+                    order: 1;
+
+                    & img{
+                        height: 350px;
+                        order: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*******************
+===MEDIA QUERIES===
+*******************/
+
+@media(max-width: 830px){
+    .container--ch{
+
+        & #resources{
+
+            & .row{
+                flex-direction: column;
+                align-items: center;
+
+                & .content{
+                    width: 100%;
+
+                    &--text{
+
+                        & h1{
+                            font-size: 35px;
+                        }
+
+                        & p{
+                            font-size: 25px;
+                        }
+                    }
+
+                    &--img{
+                        order: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 544px){
+    .container--ch{
+
+        & #resources{
+
+            & .content{
+                height: auto;
+
+                &--img{
+                    height: 300px;
+
+                    & img{
+                        width: 100%;
+                        height: auto !important;
+                    }
+                }
+            }
+        }
+    }
+}
