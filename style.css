@@ -426,6 +426,42 @@
   margin: 15px auto;
 }
 
+.ii-modal-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.7);
+  height: 0vh;
+  display: none;
+  color: #ffffff;
+  overflow: auto;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+}
+.ii-modal-overlay .modal-exit {
+  position: absolute;
+  right: 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+.ii-modal-overlay .modal-content {
+  background: red;
+  transition: 0.3s;
+  transform: scale(0.3);
+}
+.ii-modal-overlay .ii-grow {
+  transform: scale(1);
+}
+
+.ii-modal-show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
 #mc_embed_signup {
   padding: 15px;
   margin: auto;
