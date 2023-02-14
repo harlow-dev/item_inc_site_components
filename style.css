@@ -568,5 +568,10 @@
     height: auto !important;
   }
 }
+#ii-paypal-row img {
+  max-width: 250px;
+  display: block;
+  margin: auto;
+}
 
 /*# sourceMappingURL=style.css.map */
