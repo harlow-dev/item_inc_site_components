@@ -22,12 +22,33 @@
             & .ii-product-card{
                 
                 & p{
-                    font-size: 14px;
+                    font-size: 16px;
                 }
 
                 & .ii-button{
                     padding: 10px 30px;
                     font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width: 670px){
+    .container--ch{
+
+        #catalog-cards{
+            display: block;
+            text-align: center;
+
+            & .ii-product-card{
+                width: 90% !important;
+                display: block;
+                margin: 0 auto 15px auto;
+                padding-bottom: 30px;
+
+                & p{
+                    margin-bottom: 25px;
                 }
             }
         }
