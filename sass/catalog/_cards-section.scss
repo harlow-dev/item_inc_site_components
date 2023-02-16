@@ -1,0 +1,35 @@
+.container--ch{
+
+    & #catalog-cards{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        & .ii-product-card{
+        width: 30% !important;
+        }
+    }
+}
+
+/************************
+    MEDIA QUERIES
+*************************/
+@media(max-width: 748px){
+    .container--ch{
+
+        & #catalog-cards{
+    
+            & .ii-product-card{
+                
+                & p{
+                    font-size: 14px;
+                }
+
+                & .ii-button{
+                    padding: 10px 30px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

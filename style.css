@@ -187,13 +187,13 @@
   #product-cards .flex {
     flex-direction: column;
   }
-  .ii-product-card {
+  #product-cards .flex .ii-product-card {
     width: 90%;
   }
-  .ii-product-card .ii-container {
+  #product-cards .flex .ii-product-card .ii-container {
     width: 100%;
   }
-  .ii-product-card .ii-container .ii-button {
+  #product-cards .flex .ii-product-card .ii-container .ii-button {
     font-size: 18px;
     width: 80%;
     display: block;
@@ -566,6 +566,27 @@
   .container--ch #resources .content--img img {
     width: 100%;
     height: auto !important;
+  }
+}
+.container--ch #catalog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container--ch #catalog-cards .ii-product-card {
+  width: 30% !important;
+}
+
+/************************
+    MEDIA QUERIES
+*************************/
+@media (max-width: 748px) {
+  .container--ch #catalog-cards .ii-product-card p {
+    font-size: 14px;
+  }
+  .container--ch #catalog-cards .ii-product-card .ii-button {
+    padding: 10px 30px;
+    font-size: 14px;
   }
 }
 #ii-paypal-row img {

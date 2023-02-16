@@ -48,20 +48,20 @@
 
         & .flex{
             flex-direction: column;
-        }
-    }
 
-    .ii-product-card{
-        width: 90%;
-
-        & .ii-container{
-            width: 100%;
-
-            & .ii-button{
-                font-size: 18px;
-                width: 80%;
-                display: block;
-                margin: auto;
+            .ii-product-card{
+                width: 90%;
+        
+                & .ii-container{
+                    width: 100%;
+        
+                    & .ii-button{
+                        font-size: 18px;
+                        width: 80%;
+                        display: block;
+                        margin: auto;
+                    }
+                }
             }
         }
     }
