@@ -582,7 +582,7 @@
 *************************/
 @media (max-width: 748px) {
   .container--ch #catalog-cards .ii-product-card p {
-    font-size: 16px;
+    font-size: 18px;
   }
   .container--ch #catalog-cards .ii-product-card .ii-button {
     padding: 10px 30px;
