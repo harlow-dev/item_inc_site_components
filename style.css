@@ -670,6 +670,93 @@
     margin-bottom: 25px;
   }
 }
+.container--ch #free_support {
+  width: 100%;
+  margin: 30px auto;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+.container--ch #free_support .image {
+  width: 100%;
+}
+.container--ch #free_support .text_box {
+  width: 100%;
+  min-height: 400px;
+  background-color: rgb(255, 255, 255);
+  padding-left: 25px;
+  color: #000000;
+  z-index: 1;
+}
+.container--ch #free_support .text_box h2 {
+  font-size: 24px;
+  font-weight: lighter;
+}
+.container--ch #free_support .text_box li {
+  list-style-type: none;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+.container--ch #free_support .text_box p {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 1.5;
+}
+.container--ch #free_support .text_box .italic {
+  font-size: 12px;
+  font-style: italic;
+}
+.container--ch #free_support .text_box .underline {
+  height: 5px;
+  width: 130px;
+  background-color: #275CCD;
+  bottom: 0;
+  max-width: 240px;
+  margin-bottom: 0;
+  display: block;
+}
+.container--ch #free_support .text_box .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container--ch #free_support .text_box button {
+  font-size: 22px;
+  font-weight: bold;
+  overflow: hidden;
+  text-align: center;
+  background-color: #275CCD;
+  color: white;
+  width: 300px;
+  padding: 15px 0;
+  border: #275CCD;
+  cursor: pointer;
+}
+
+/*********************************
+          MEDIA QUERIES
+*********************************/
+@media (max-width: 904px) {
+  .container--ch #free_support {
+    margin: 0;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+  .container--ch #free_support img {
+    width: 100%;
+  }
+  .container--ch #free_support .text_box {
+    width: 90%;
+    padding: 10px;
+    margin-top: -30px;
+  }
+  .container--ch #free_support .text_box button {
+    padding: 5px;
+  }
+}
 #ii-paypal-row img {
   max-width: 250px;
   display: block;
