@@ -1,5 +1,17 @@
 .container--ch{
 
+    & #catalog-page-hero{
+        background: url("https://iteminc.com/content/files/frontend-assets/catalog-page/catalog-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        & p{
+            text-transform: capitalize;
+        }
+
+    }
+
     & #catalog-cards{
         display: flex;
         flex-wrap: wrap;

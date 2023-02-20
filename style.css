@@ -462,6 +462,60 @@
   height: 100vh;
 }
 
+.ii-hero {
+  background: #999;
+  color: #ffffff;
+  padding: 40px;
+}
+.ii-hero h1 {
+  color: #ffffff;
+  text-align: left;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.ii-hero .underline {
+  height: 5px;
+  width: 50%;
+  background: #275CCD;
+  bottom: 0;
+  max-width: 240px;
+  margin-bottom: 0;
+}
+.ii-hero p {
+  font-size: 35px;
+  width: 100%;
+  max-width: 650px;
+  font-family: sans-serif;
+  line-height: 1.3;
+}
+.ii-hero .flex {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  align-items: center;
+}
+
+/***********************************
+******MEDIA QUERIES*****************
+************************************/
+@media (max-width: 720px) {
+  .ii-hero h1 {
+    font-size: 35px;
+  }
+  .ii-hero p {
+    font-size: 25px;
+  }
+  .ii-hero .flex {
+    flex-direction: column;
+  }
+  .ii-hero .flex .ii-button {
+    margin-bottom: 25px;
+    font-size: 18px;
+    width: 80%;
+  }
+}
 #mc_embed_signup {
   padding: 15px;
   margin: auto;
@@ -567,6 +621,15 @@
     width: 100%;
     height: auto !important;
   }
+}
+.container--ch #catalog-page-hero {
+  background: url("https://iteminc.com/content/files/frontend-assets/catalog-page/catalog-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.container--ch #catalog-page-hero p {
+  text-transform: capitalize;
 }
 .container--ch #catalog-cards {
   display: flex;
