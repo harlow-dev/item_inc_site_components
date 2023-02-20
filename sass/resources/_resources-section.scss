@@ -1,4 +1,15 @@
 .container--ch{
+
+    & #resources-page-hero{
+        background: url("https://iteminc.com/content/files/frontend-assets/background-images/resources-page-hero.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+        // & p{
+        //     text-transform: capitalize;
+        // }
+    }
     
     & #resources{
 

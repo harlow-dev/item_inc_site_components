@@ -538,6 +538,12 @@
   float: right;
 }
 
+.container--ch #resources-page-hero {
+  background: url("https://iteminc.com/content/files/frontend-assets/background-images/resources-page-hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .container--ch #resources .row {
   display: flex;
   justify-content: space-evenly;
@@ -627,9 +633,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-.container--ch #catalog-page-hero p {
-  text-transform: capitalize;
 }
 .container--ch #catalog-cards {
   display: flex;
