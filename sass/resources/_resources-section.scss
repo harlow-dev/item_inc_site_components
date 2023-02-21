@@ -5,16 +5,11 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-
-        // & p{
-        //     text-transform: capitalize;
-        // }
     }
     
     & #resources{
 
         & .row{
-            //background: rgba(0,0,0,.3);
             display: flex;
             justify-content: space-evenly;
             margin: 50px auto;
@@ -36,7 +31,7 @@
                         font-size: 40px;
                         text-transform: capitalize;
                         font-weight: bold;
-                        margin-bottom: 10px;
+                        margin-bottom: 0px;
                         color: $dark;
                     }
     
@@ -45,7 +40,7 @@
                         width: 50%;
                         background: $primary;
                         bottom: 0;
-                        max-width: 240px;
+                        max-width: 90px;
                         margin-bottom: 0;
                         display: block;
                     }

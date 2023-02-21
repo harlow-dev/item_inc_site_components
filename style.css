@@ -108,7 +108,7 @@
   width: 50%;
   background: #275CCD;
   bottom: 0;
-  max-width: 240px;
+  max-width: 90px;
   margin-bottom: 0;
 }
 .container--ch #hero p {
@@ -480,7 +480,7 @@
   width: 50%;
   background: #275CCD;
   bottom: 0;
-  max-width: 240px;
+  max-width: 70px;
   margin-bottom: 0;
 }
 .ii-hero p {
@@ -516,6 +516,15 @@
     width: 80%;
   }
 }
+.ii-underline {
+  height: 5px;
+  background: #275CCD;
+  bottom: 0;
+  max-width: 70px;
+  margin-bottom: 0;
+  display: block;
+}
+
 #mc_embed_signup {
   padding: 15px;
   margin: auto;
@@ -566,7 +575,7 @@
   font-size: 40px;
   text-transform: capitalize;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   color: #000000;
 }
 .container--ch #resources .row .content--text .underline {
@@ -574,7 +583,7 @@
   width: 50%;
   background: #275CCD;
   bottom: 0;
-  max-width: 240px;
+  max-width: 90px;
   margin-bottom: 0;
   display: block;
 }
@@ -670,10 +679,14 @@
     margin-bottom: 25px;
   }
 }
+.container--ch #tech-support-page-hero {
+  background: url("https://iteminc.com/content/files/frontend-assets/background-images/tech-support-hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 .container--ch #free_support {
-  width: 100%;
   margin: 30px auto;
-  max-width: 1100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -691,48 +704,33 @@
   z-index: 1;
 }
 .container--ch #free_support .text_box h2 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: lighter;
+  margin-bottom: 0;
 }
 .container--ch #free_support .text_box li {
   list-style-type: none;
   line-height: 1.7;
   margin-bottom: 15px;
+  font-size: 18px;
 }
 .container--ch #free_support .text_box p {
   margin: 20px 0;
   font-weight: 500;
   line-height: 1.5;
+  font-size: 18px;
 }
 .container--ch #free_support .text_box .italic {
-  font-size: 12px;
+  font-size: 14px;
   font-style: italic;
 }
-.container--ch #free_support .text_box .underline {
-  height: 5px;
-  width: 130px;
-  background-color: #275CCD;
-  bottom: 0;
-  max-width: 240px;
-  margin-bottom: 0;
+.container--ch #free_support .text_box ul {
+  margin: 0;
+  padding: 0;
+}
+.container--ch #free_support .text_box .ii-button {
   display: block;
-}
-.container--ch #free_support .text_box .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.container--ch #free_support .text_box button {
-  font-size: 22px;
-  font-weight: bold;
-  overflow: hidden;
-  text-align: center;
-  background-color: #275CCD;
-  color: white;
-  width: 300px;
-  padding: 15px 0;
-  border: #275CCD;
-  cursor: pointer;
+  margin: 15px auto 15px auto;
 }
 
 /*********************************
