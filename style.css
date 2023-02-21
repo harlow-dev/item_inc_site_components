@@ -694,6 +694,7 @@
 }
 .container--ch #free_support .image {
   width: 100%;
+  text-align: center;
 }
 .container--ch #free_support .text_box {
   width: 100%;
