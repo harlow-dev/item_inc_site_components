@@ -704,6 +704,10 @@
   color: #000000;
   z-index: 1;
 }
+.container--ch #free_support .text_box h1 {
+  font-size: 40px;
+  color: #000000;
+}
 .container--ch #free_support .text_box h2 {
   font-size: 28px;
   font-weight: lighter;
@@ -751,6 +755,10 @@
     width: 90%;
     padding: 10px;
     margin-top: -30px;
+  }
+  .container--ch #free_support .text_box h1 {
+    font-size: 35px;
+    color: #000000;
   }
   .container--ch #free_support .text_box button {
     padding: 5px;
