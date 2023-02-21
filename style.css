@@ -707,6 +707,7 @@
 .container--ch #free_support .text_box h1 {
   font-size: 40px;
   color: #000000;
+  margin-bottom: 0;
 }
 .container--ch #free_support .text_box h2 {
   font-size: 28px;
